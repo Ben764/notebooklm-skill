@@ -1,0 +1,23 @@
+{
+  "skill_name": "notebooklm",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ik heb een pdf in ~/Documents/onderzoek-rapport.pdf en wil daar een podcast van maken in het Nederlands, zoiets als die notebooklm audio dingen. Kan je dat regelen?",
+      "expected_output": "Claude creates a notebook, adds the PDF as source, generates a Dutch audio overview, and downloads the mp3",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need to prepare for my exam on machine learning. I have these two articles: https://example.com/ml-transformers and https://example.com/ml-attention-mechanism. Can you make me flashcards and a quiz from them? Hard difficulty please.",
+      "expected_output": "Claude creates a notebook, adds both URLs, generates hard flashcards and a hard quiz, downloads them in a usable format",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "ik wil een presentatie maken over sustainable energy trends. Ik heb geen bronnen, maar notebooklm kan toch ook zelf research doen? Maak er een slide deck en een infographic van",
+      "expected_output": "Claude creates a notebook, uses add-research to find sources, generates a slide deck and infographic, downloads both",
+      "files": []
+    }
+  ]
+}
