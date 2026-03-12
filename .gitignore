@@ -2,3 +2,17 @@
 .claude/
 notebooklm-workspace/
 notebooklm.skill
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Node.js
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
